@@ -1,0 +1,72 @@
+.container-ul li{
+    font-family: 'Nerko One', cursive;
+    padding-left: 15px;
+    margin-top: 25px;
+    font-size: 3em;
+    margin-left: 25px;
+}
+.container-ul li::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f508';
+    font-weight: 900;
+    color: red;
+}
+.container-ul li:nth-child(2)::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f5fd';
+    font-weight: 900;
+    color: rgb(53, 0, 245);
+}
+.container-ul li:nth-child(3)::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f228';
+    font-weight: 900;
+    color: rgb(255, 157, 0);
+}
+.container-ul li:nth-child(4)::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f51c';
+    font-weight: 900;
+    color: rgb(30, 255, 0);
+}
+.container-ul li:nth-child(5)::marker{
+    font-family: "Font Awesome 5 Free";
+    content:none;
+    font-weight: 900;
+    color: rgb(30, 255, 0);
+}
+
+/*Menu de mis hobbies*/
+.container-ul__li-ol{
+    font-family: 'Acme', sans-serif;
+    padding-left: 15px;
+    margin-top: 25px;
+    font-size: 0.5em;
+    margin-left: 100px;
+}
+.container-ul__li-ol li::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f5fc';
+    font-weight: 900;
+    color: rgb(0, 119, 255);
+}
+.container-ul__li-ol li:nth-child(2)::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f1b3';
+    font-weight: 900;
+    color: rgb(126, 6, 12);
+}
+.container-ul__li-ol li:nth-child(3)::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f1e3';
+    font-weight: 900;
+    color: rgb(5, 199, 233);
+}
+.container-ul__li-ol li:nth-child(4)::marker{
+    font-family: "Font Awesome 5 Free";
+    content: '\f072';
+    font-weight: 900;
+    color: rgb(172, 233, 5);
+}
+
+
